@@ -20,7 +20,7 @@
                                         // to the 'jumbotron.html' file
 
   // add a click event to our button
-  const buttonEl = document.getElementById('loadJumbotronBtn')
+  const buttonEl = document.getElementById('loadBtn1')
   buttonEl.addEventListener('click', clickBtn)
 
   // when the "Load Jumbotron" button is clicked, we fire the .send() method of request
@@ -44,7 +44,7 @@
       console.log(request.responseText)
 
       // let's add that HTMl into the DOM
-      const jumbotronContainerEl = document.getElementById('jumbotronContainer')
+      const jumbotronContainerEl = document.getElementById('jumbotronContainer1')
       jumbotronContainerEl.innerHTML = request.responseText
 
       // and remove the button
