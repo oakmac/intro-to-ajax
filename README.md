@@ -10,7 +10,7 @@ interaction.
 ## Instructions
 
 1. Clone this repo
-1. Start a simple web server in the main directory: `python -m SimpleHTTPServer` (or whichever server of your choice)
+1. Start a simple web server in the main directory: `python -m SimpleHTTPServer` (or another web server of your choice)
 1. Instructions can be found in the JavaScript files. Starting with `js/basic-ajax.js`
 
 ## License
