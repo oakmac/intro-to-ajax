@@ -1,0 +1,60 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>AJAX Examples</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>AJAX Examples</h1>
+
+    <ul id="tabsNav" class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link" href="#basic" id="basicNavLink">Basic AJAX</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#jquery" id="jqueryNavLink">AJAX with jQuery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#fetch" id="fetchNavLink">Fetch API</a>
+      </li>
+    </ul>
+
+    <section class="body-section" id="basicBodyContainer" style="display:none">
+      <h2>Basic AJAX</h2>
+      <p>Please see the file <code>js/basic-ajax.js</code> in this repo for explanation of this page.</p>
+      <button class="btn btn-primary" id="loadJumbotronBtn">Load Jumbotron</button>
+      <div id="jumbotronContainer"></div>
+    </section>
+
+    <section class="body-section" id="jqueryBodyContainer" style="display:none">
+      <h2>AJAX with jQuery</h2>
+    </section>
+
+    <section class="body-section" id="fetchBodyContainer" style="display:none">
+      <h2>Fetch API</h2>
+
+      <p>More recently, browsers have adopted the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API">Fetch API</a>.
+        With the goal of making AJAX easier to use than <code>XMLHttpRequest</code> without requiring an external library (ie: jQuery).</p>
+
+    </section>
+
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/tabs.js"></script>
+  <script src="js/basic-ajax.js"></script>
+  <script src="js/jquery-ajax.js"></script>
+  <script src="js/fetch-api.js"></script>
+</body>
+
+</html>
