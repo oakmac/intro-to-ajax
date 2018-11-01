@@ -31,7 +31,7 @@
   const btnEl = document.getElementById('loadBtn3')
   btnEl.addEventListener('click', clickBtn)
 
-  function clickBtn (_evt) {
+  function clickBtn () {
     // The result of .fetch() is a Promise object, which has a .then() method.
     // The argument to .then() is a function that will be called once the Promise resolves.
     // In this case, the promise resolves once the AJAX request completes.
