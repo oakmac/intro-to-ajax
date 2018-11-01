@@ -73,11 +73,43 @@
   //
   // 2) Browse the API and see what kinds of calls you can make:
   //    https://documenter.getpostman.com/view/5578104/RWgqUxxh
-  // 3)
+  //
+  //    Note that the 'x-api-key' http header is required for most calls to work correctly.
+  //
+  // 3) Repeat the exercise from the jQuery example where you click on the "Generate Cat"
+  //    button and a random cat image appears inside <div id="catContainer">
+  //
+  //    This URL will return a single, random cat:
+  //    https://api.thecatapi.com/v1/images/search?size=full&mime_types=jpg&format=json&has_breeds=1&order=RANDOM&page=0&limit=1
+  //
+  //    Note that you will need to add your API key to the HTTP headers in order for that URL to return results.
+  //    You may need to read some documentation on how to send custom headers with fetch():
+  //    https://developers.google.com/web/ilt/pwa/working-with-the-fetch-api#custom_headers
+  //    https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Headers
+  //
 
-
+  // TODO: your code goes here :)
 
   //
-  // Congratulations!
+  // What else can you build with your new AJAX knowledge?
+  //
+  // How about a cats vs dogs contest where the user clicks a button to load a random dog and random cat.
+  // Then they have to vote for which one they like. Keep track of the votes.
+  //
+  // How about a picture gallery of cats with a search functionality?
+  //
+  // Wikipedia has an extensive API: https://en.wikipedia.org/api/rest_v1/
+  // What could you build on top of that using AJAX?
+  //
+  // Build something fun below using your favorite AJAX techniques.
+  //
+
+  // TODO: your code goes here :)
+
+  //
+  // Be sure to check out the axios project for another example of a Promise-based
+  // AJAX library: https://github.com/axios/axios
+  //
+  // Congratulations! You are now an AJAX master.
   //
 })()
