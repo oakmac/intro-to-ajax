@@ -72,4 +72,40 @@
 
   // TODO: your code goes here :)
 
+  //
+  // Cool. Now let's kick it up a notch and allow selecting a specific breed of dog!
+  //
+  // 1) Add an empty dropdown menu (ie: <select></select>) to the <div id="selectBreedContainer"> element.
+  //
+  // 2) Using a *different* jQuery AJAX method than you used in the above example, make a
+  //    GET request to https://dog.ceo/api/breeds/list when the page first loads.
+  //
+  //    For example, if you used $.getJSON() above, try out $.ajax() for this exercise.
+  //
+  //    Hint: check out the $.ready() method https://api.jquery.com/ready/
+  //
+  // 3) Confirm that this AJAX request shows up in the Network tab everytime you reload the page
+  //
+  // 4) In the callback function for that GET request there should be an array of dog breeds.
+  //    For each breed, add an <option value="poodle">Poodle</option> to your <select> menu.
+  //
+  //    Your drop down list should now contain a list of dog breeds.
+  //
+  // 5) Add a "change" event to the <select> element using $.on() http://api.jquery.com/on/
+  //
+  //    In your change event, make a GET request to https://dog.ceo/api/breed/{breed name}/images/random
+  //    where {breed name} is the value from your <select> menu.
+  //
+  //    Use whichever AJAX method you prefer for this request.
+  //
+  // 6) Confirm that this AJAX request shows up in the Network tab everytime you select a breed from the list
+  //
+  // 7) In the callback function, create a new dog <img> tag and add it to the page, similar to the
+  //    first exercise.
+  //
+  //    You should now be able to view random pictures of specific dog breeds via the menu!
+  //
+
+  // TODO: your code goes here :)
+
 })()
