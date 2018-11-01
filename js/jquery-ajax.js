@@ -111,7 +111,7 @@
   //
   // Excellent work!
   //
-  // Hopefully you can see why web develoeprs prefer using the jQuery API over XMLHttpRequest directly.
+  // Hopefully you can see why web developers prefer using the jQuery API over XMLHttpRequest directly.
   //
   // Next let's look at a new contender that is built into modern browsers: the Fetch API
   //
