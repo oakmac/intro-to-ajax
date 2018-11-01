@@ -63,8 +63,8 @@
 
   //
   // We can see that using fetch() is simpler than XMLHttpRequest, but Promises can be tricky initially.
-  // I always advise naming your promise callback functions; it greatly helps with readability and
-  // understanding code "flow".
+  // I strongly recommend naming your promise callback functions instead of using anonymous functions;
+  // it greatly helps with readability and understanding code "flow".
   //
   // Now let's put the fetch() API to work on something more interesting: cat pictures!
   //
@@ -76,8 +76,8 @@
   //
   //    Note that the 'x-api-key' http header is required for most calls to work correctly.
   //
-  // 3) Repeat the exercise from the jQuery example where you click on the "Generate Cat"
-  //    button and a random cat image appears inside <div id="catContainer">
+  // 3) Using the Fetch API, repeat the exercise from the jQuery page where you click on
+  //    "Generate Cat" and a random cat image appears inside <div id="catContainer">
   //
   //    This URL will return a single, random cat:
   //    https://api.thecatapi.com/v1/images/search?size=full&mime_types=jpg&format=json&has_breeds=1&order=RANDOM&page=0&limit=1
@@ -86,6 +86,9 @@
   //    You may need to read some documentation on how to send custom headers with fetch():
   //    https://developers.google.com/web/ilt/pwa/working-with-the-fetch-api#custom_headers
   //    https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Headers
+  //
+  //    Don't forget to disable the button while the AJAX request is active, and re-enable
+  //    it once done.
   //
 
   // TODO: your code goes here :)
@@ -96,7 +99,7 @@
   // How about a cats vs dogs contest where the user clicks a button to load a random dog and random cat.
   // Then they have to vote for which one they like. Keep track of the votes.
   //
-  // How about a picture gallery of cats with a search functionality?
+  // How about a picture gallery of cats and dogs with search functionality?
   //
   // Wikipedia has an extensive API: https://en.wikipedia.org/api/rest_v1/
   // What could you build on top of that using AJAX?
