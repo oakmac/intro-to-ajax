@@ -1,7 +1,7 @@
 ;(function () {
   //
-  // AJAX stands for Asynchronous JavaScript and XML. Despite the name, it basically
-  // has nothing to do with XML; that is just a historical quirk.
+  // AJAX stands for Asynchronous JavaScript and XML. Despite the name, this technology
+  // has little to do with XML.
   //
   // It basically means "you can load content on a webpage dynamically". Traditionally,
   // webpages were static once they had been loaded from the server. AJAX allows
@@ -55,8 +55,8 @@
   }
 
   //
-  // As you can see, the API for XMLHttpRequest is pretty verbose. Most web developers
-  // do not use this object directly in 2018. Instead choosing to use library wrappers on top of it
+  // As you can see, the API for XMLHttpRequest is pretty verbose. These days, most web developers
+  // do not use this object directly. Instead they use a library with a cleaner API.
   //
   // You can read more about the history of AJAX and XMLHttpRequest here:
   // https://en.wikipedia.org/wiki/Ajax_(programming)
