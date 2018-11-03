@@ -10,7 +10,8 @@ interaction.
 ## Instructions
 
 1. Clone this repo
-1. Start a simple web server in the main directory: `python -m SimpleHTTPServer` (or another web server of your choice)
+1. Start a [local web server](#running-a-local-web-server) in the main directory
+1. Load the file in your web browser from your local server
 1. Instructions can be found in the JavaScript files. Starting with `js/basic-ajax.js`
 
 ## Running a local web server
@@ -29,7 +30,7 @@ sudo npm install -g serve
 # start the web server
 serve
 
-# serve should show some output to your terminal with instructions
+# serve should show some output to your terminal with a URL
 # load that URL in your browser to view this exercise
 ```
 

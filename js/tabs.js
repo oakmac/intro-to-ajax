@@ -61,9 +61,7 @@ if (!String.prototype.includes) {
   }
 
   function shutItDown () {
-    document.body.innerHTML = '<h1>Please run a local webserver to view this exercise.</h1>'
-    alert('This page cannot be loaded via the file system directly.\n\n' +
-          'Please run a local webserver to view this exercise.')
+    document.body.innerHTML = '<h1>Please <a href="https://github.com/oakmac/intro-to-ajax#running-a-local-web-server">run a local webserver</a> to view this exercise.</h1>'
   }
 
   function init () {
