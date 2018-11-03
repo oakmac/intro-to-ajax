@@ -13,6 +13,29 @@ interaction.
 1. Start a simple web server in the main directory: `python -m SimpleHTTPServer` (or another web server of your choice)
 1. Instructions can be found in the JavaScript files. Starting with `js/basic-ajax.js`
 
+## Running a local web server
+
+Web browsers will not allow AJAX requests to be made against the local filesystem for security reasons.
+This means that you cannot simply drag the `index.html` file onto your browser to view this exercise; you must run a local web server.
+
+Assuming you have [Node.js] and [npm] installed:
+
+```sh
+# install the npm "serve" module globally
+sudo npm install -g serve
+
+# cd into the directory you want to run your local web server
+
+# start the web server
+serve
+
+# serve should show some output to your terminal with instructions
+# load that URL in your browser to view this exercise
+```
+
+[Node.js]:https://nodejs.org/
+[npm]:https://www.npmjs.com/get-npm
+
 ## License
 
 [ISC License](LICENSE.md)
